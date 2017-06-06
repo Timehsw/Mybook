@@ -7,8 +7,8 @@
   * [Ubuntu](ubuntu.md)
   * CentOs
 * [大数据](da-shu-ju.md)
-  * Hadoop
+  * [Hadoop](da-shu-ju/hadoop.md)
   * [HBase](da-shu-ju/hbase.md)
-    * Hbase优化
+    * [Hbase优化](da-shu-ju/hbase/hbaseyou-hua.md)
 * [编程语言](bian-cheng-yu-yan.md)
 
