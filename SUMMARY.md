@@ -32,4 +32,6 @@
 * [开发工具](kai-fa-gong-ju.md)
   * [Intelllij](kai-fa-gong-ju/intelllij.md)
     * Intellij使用笔记
+  * [Git](kai-fa-gong-ju/git.md)
+    * git快捷键
 
