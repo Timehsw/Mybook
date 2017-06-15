@@ -28,6 +28,30 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 ```
 
+## brew常用命令
+
+```
+brew install xxx     安装xxx
+brew uninstall xxx    卸载xxx
+brew list           列出已安装的软件
+brew update     更新brew
+brew home       用浏览器打开brew的官方网站
+brew info         显示软件信息
+brew deps        显示包依赖
+```
+
+# 安装brew cask
+
+```
+brew cask
+```
+
+# 安装视频播放器mpv
+
+```
+brew cask install mpv
+```
+
 # brew安装 python
 
 Python会被安装到/usr/local/bin目录下
@@ -111,23 +135,7 @@ hushiweideMacBook-Pro:Downloads hushiwei$ more .bash_profile
 
 * 下载
 
-\[下载地址\]\([https://dev.mysql.com/downloads/mysql/\](https://dev.mysql.com/downloads/mysql/\)\)
+\[下载地址\]\([https://dev.mysql.com/downloads/mysql/\](https://dev.mysql.com/downloads/mysql/%29\)
 
-# brew的安装OSX最好用的免费播放器
 
-## 参考
-
-[https://codesky.me/archives/mpv-config.wind](https://codesky.me/archives/mpv-config.wind)
-
-## 安装
-
-```
-brew tap mpv-player/mpv
-brew install mpv
-brew linkapps mpv
-```
-
-## 说明
-
-执行上面的命令后,就安装完成
 
