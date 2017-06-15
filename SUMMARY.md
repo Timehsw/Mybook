@@ -6,7 +6,7 @@
     * [Mac开发环境](mac/mackai-fa-huan-jing.md)
     * [GitBook使用说明](mac/gitbookshi-yong-shuo-ming.md)
   * [Ubuntu](ubuntu.md)
-    * Ubuntu开发环境
+    * [Ubuntu开发环境](ubuntu/ubuntukai-fa-huan-jing.md)
   * [CentOs](centos.md)
     * [CentOS开发环境](centos/centoskai-fa-huan-jing.md)
   * [服务器监控](fu-wu-qi-jian-kong.md)
