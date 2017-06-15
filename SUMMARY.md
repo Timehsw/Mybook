@@ -14,6 +14,7 @@
 * [大数据](da-shu-ju.md)
   * [Hadoop](da-shu-ju/hadoop.md)
     * MapReduce
+    * [一些常用命令](da-shu-ju/hadoop/yi-xie-chang-yong-ming-ling.md)
   * [HBase](da-shu-ju/hbase.md)
     * [Hbase优化](da-shu-ju/hbase/hbaseyou-hua.md)
   * [Spark](da-shu-ju/spark.md)
