@@ -1,5 +1,3 @@
-
-
 # 切换root账号
 
 ```
@@ -84,8 +82,6 @@ wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
 ```
 
-
-
 # 安装jdk
 
 * 配置scala,maven,环境变量
@@ -100,20 +96,22 @@ sudo python get-pip.py
 
 * 环境变量
 
-    hushiweideMacBook-Pro:Downloads hushiwei$ more .bash_profile 
-    alias ll='ls -lF'
-    alias ll='ls -alF'
-    JAVA_HOME=`/usr/libexec/java_home`
-    SCALA_HOME=/Users/hushiwei/devApps/scala-2.10.5
-    MAVEN_HOME=/Users/hushiwei/devApps/maven-3.3.9
-    CLASSPAHT=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-    PATH=$SCALA_HOME/bin:$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH:/usr/local/bin:
+```
+hushiweideMacBook-Pro:Downloads hushiwei$ more .bash_profile 
+  alias ll='ls -lF'
+  alias ll='ls -alF'
+  JAVA_HOME=/usr/libexec/java_home
+  SCALA_HOME=/Users/hushiwei/devApps/scala-2.10.5
+  MAVEN_HOME=/Users/hushiwei/devApps/maven-3.3.9
+  CLASSPAHT=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+  PATH=$SCALA_HOME/bin:$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH:/usr/local/bin:
+```
 
-安装MySQL
+# 安装MySQL
 
 * 下载
 
-\[下载地址\]\(https://dev.mysql.com/downloads/mysql/\)
+\[下载地址\]\([https://dev.mysql.com/downloads/mysql/\](https://dev.mysql.com/downloads/mysql/\)\)
 
 # brew的安装OSX最好用的免费播放器
 
