@@ -8,7 +8,7 @@
   * [Ubuntu](ubuntu.md)
     * Ubuntu开发环境
   * [CentOs](centos.md)
-    * CentOS开发环境
+    * [CentOS开发环境](centos/centoskai-fa-huan-jing.md)
   * [服务器监控](fu-wu-qi-jian-kong.md)
     * [Linux IO实时监控之iostat详解](fu-wu-qi-jian-kong/linux-ioshi-shi-jian-kong-zhi-iostat-xiang-jie.md)
 * [大数据](da-shu-ju.md)
