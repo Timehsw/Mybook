@@ -26,9 +26,12 @@
 * [编程语言](bian-cheng-yu-yan.md)
   * [Shell](bian-cheng-yu-yan/shell.md)
     * [grep命令](bian-cheng-yu-yan/shell/grepming-ling.md)
-  * Python
-  * Scala
-  * Java
+  * [Python](bian-cheng-yu-yan/python.md)
+    * python笔记
+  * [Scala](bian-cheng-yu-yan/scala.md)
+    * scala笔记
+  * [Java](bian-cheng-yu-yan/java.md)
+    * java笔记
 * [开发工具](kai-fa-gong-ju.md)
   * [Intelllij](kai-fa-gong-ju/intelllij.md)
     * Intellij使用笔记
