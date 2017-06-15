@@ -1,12 +1,10 @@
-
-
-#  给系统更新
+# 给系统更新
 
 ```
 sudo apt-get update
 ```
 
-#  安装sublime3
+# 安装sublime3
 
 * 1.在商店里下载sublime3后
 * 2.用第一个这个就可以注册成功
@@ -37,21 +35,19 @@ FCCC7561 8A4A1741 68FA4223 ADCEDE07
 0FEC1CEF D9DCECEC D3A5DAD1 01316C36
 ```
 
-*  3.安装插件包管理
+* 3.安装插件包管理
 
 ```
 import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())
 ```
 
+# 安装java,scala,mvn,intellij idea
 
-
-#  安装java,scala,mvn,intellij idea
-
-*  1.解压tar包
+* 1.解压tar包
 * 2.设置环境变量
 * 3.加载环境变量以生效
 
-#  安装Mysql
+# 安装Mysql
 
 > ubuntu上安装MySQL非常简单只需要几条命令就可以完成。
 
@@ -60,118 +56,69 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 　　2. apt-get isntall mysql-client
 
-　　3.  sudo apt-get install libmysqlclient-dev
+　　3. sudo apt-get install libmysqlclient-dev
+```
+
+安装过程中会提示设置密码什么的，注意设置了不要忘了，安装完成之后可以使用如下命令来检查是否安装成功：
+
+```
+sudo netstat -tap | grep mysql
+```
+
+通过上述命令检查之后，如果看到有mysql 的socket处于 listen 状态则表示安装成功。
+
+登陆mysql数据库可以通过如下命令：
+
+```
+mysql -u root -p
+# -u 表示选择登陆的用户名， -p 表示登陆的用户密码，上面命令输入之后会提示输入密码，此时输入密码就可以登录到mysql。
+```
+
+#  安装 python,pip 环境
+
+```
+sudo apt-get install python-pip python-dev
+sudo pip install --upgrade pip
+```
+
+pip安装常用模块
+
+```
+sudo pip install django
+sudo pip install MySQL-python
+sudo pip install beautifulsoup4
+```
+
+# 安装git
+
+```
+sudo apt-get install git
+```
+
+git的执行文件在/usr/bin/git
+
+#  安装nodejs及npm
+
+```
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install python-software-properties python g++ make nodejs npm
+```
+
+# 安装jekyll步骤
+
+> 安装一个本地的jekyll环境，方便写博客的时候调试预览效果
+
+```
+sudo apt-get install ruby
+sudo apt-get install ruby-dev(用这个命令，不然后面装jekyll会出现缺文件的错误)
+ruby -v （检查一下版本）
+gem -v （检查一下版本）
+sudo apt-get install nodejs （把nodejs也装上）
+sudo gem install jekyll （最后可以安装jekyll了）
 ```
 
 
 
-安装过程中会提示设置密码什么的，注意设置了不要忘了，安装完成之后可以使用如下命令来检查是否安装成功：
-
-\`\`\`
-
-　　sudo netstat -tap \| grep mysql
-
-\`\`\`
-
-通过上述命令检查之后，如果看到有mysql 的socket处于 listen 状态则表示安装成功。
-
-
-
-登陆mysql数据库可以通过如下命令：
-
-\`\`\`
-
-　　mysql -u root -p
-
-
-
-　　-u 表示选择登陆的用户名， -p 表示登陆的用户密码，上面命令输入之后会提示输入密码，此时输入密码就可以登录到mysql。
-
-\`\`\`
-
-
-
-\#\# 安装 python 环境
-
-\`\`\`
-
-sudo apt-get install python-pip python-dev
-
-sudo pip install --upgrade pip
-
-\`\`\`
-
-pip安装常用模块
-
-\`\`\`
-
-sudo pip install django
-
-sudo pip install MySQL-python
-
-sudo pip install beautifulsoup4
-
-\`\`\`
-
-
-
-\#\# 安装git
-
-\`\`\`
-
-sudo apt-get install git
-
-\`\`\`
-
-git的执行文件在/usr/bin/git
-
-
-
-\#\# 安装nodejs及npm
-
-
-
-\`\`\`
-
-sudo add-apt-repository ppa:chris-lea/node.js
-
-
-
-sudo apt-get update
-
-
-
-sudo apt-get install python-software-properties python g++ make nodejs npm
-
-\`\`\`
-
-
-
-\#\# 安装jekyll步骤
-
-
-
-&gt; 安装一个本地的jekyll环境，方便写博客的时候调试预览效果
-
-
-
-\`\`\`
-
-sudo apt-get install ruby
-
-sudo apt-get install ruby-dev\(用这个命令，不然后面装jekyll会出现缺文件的错误\)
-
-ruby -v （检查一下版本）
-
-gem -v （检查一下版本）
-
-sudo apt-get install nodejs （把nodejs也装上）
-
-sudo gem install jekyll （最后可以安装jekyll了）
-
-\`\`\`
-
-\*\*注意：\*\* 最后安装jekyll的时候，如果报了缺少什么的错误。根据提示的错误，下载缺少的文件即可。
-
-
+**注意:**   最后安装jekyll的时候，如果报了缺少什么的错误。根据提示的错误，下载缺少的文件即可。
 

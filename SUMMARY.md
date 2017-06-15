@@ -20,5 +20,15 @@
     * SparkStreaming
   * [Druid](da-shu-ju/druid.md)
     * go to fast
+  * [Docker](da-shu-ju/docker.md)
+    * [Docker笔记](da-shu-ju/docker/dockerbi-ji.md)
 * [编程语言](bian-cheng-yu-yan.md)
+  * [Shell](bian-cheng-yu-yan/shell.md)
+    * [grep命令](bian-cheng-yu-yan/shell/grepming-ling.md)
+  * Python
+  * Scala
+  * Java
+* [开发工具](kai-fa-gong-ju.md)
+  * [Intelllij](kai-fa-gong-ju/intelllij.md)
+    * Intellij使用笔记
 
