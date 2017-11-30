@@ -97,5 +97,67 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
+## virtualenvwrapper
+
+> virtualenvwrapper是virtualenv的扩展管理包，用于更方便管理虚拟环境.
+
+他可以做;
+
+1. 将所有虚拟环境整合在一个目录下
+2. 管理（新增，删除，复制）虚拟环境
+3. 切换虚拟环境
+
+## 安装
+
+```
+pip install virtualenvwrapper
+```
+
+## 使用方法
+
+1.初始化配置
+
+默认virtualenvwrapper安装在/usr/local/bin下面，实际上需要运行virtualenvwrapper.sh文件才行；
+
+所以需要先进行配置一下：
+
+1.1 创建虚拟环境管理目录:
+
+```
+mkdir $HOME/.local/virtualenvs
+```
+
+1.2 在~/.bash\_profile中添加行
+
+```
+
+export VIRTUALENV_USE_DISTRIBUTE=1        #  总是使用 pip/distribute
+export WORKON_HOME=$HOME/.local/virtualenvs       # 所有虚拟环境存储的目录
+if [ -e $HOME/.local/bin/virtualenvwrapper.sh ];then
+    source $HOME/.local/bin/virtualenvwrapper.sh
+else if [ -e /usr/local/bin/virtualenvwrapper.sh ];then
+    source /usr/local/bin/virtualenvwrapper.sh
+fi
+  fi
+export PIP_VIRTUALENV_BASE=$WORKON_HOME
+export PIP_RESPECT_VIRTUALENV=true
+```
+
+2.使用方法
+
+所有的命令可使用：`virtualenvwrapper --help` 进行查看，这里列出几个常用的：
+
+* 创建基本环境：mkvirtualenv \[环境名\]
+
+* 删除环境：rmvirtualenv \[环境名\]
+
+* 激活环境：workon \[环境名\]
+
+* 退出环境：deactivate
+
+* 列出所有环境：workon 或者 lsvirtualenv -b
+
+
+
 
 
