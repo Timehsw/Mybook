@@ -78,5 +78,21 @@ source python3env/bin/activate
 deactivate
 ```
 
+# 激活虚拟环境,将全部依赖写入文件
+
+```
+pip freeze > requirements.txt
+```
+
+进入项目内,安装全部依赖
+
+```
+pip install -r requirements.txt
+```
+
+
+
+
+
 
 

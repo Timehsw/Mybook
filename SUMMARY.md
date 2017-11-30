@@ -19,6 +19,7 @@
     * [Hbase优化](da-shu-ju/hbase/hbaseyou-hua.md)
   * [Spark](da-shu-ju/spark.md)
     * SparkStreaming
+    * [搭建Spark学习环境](da-shu-ju/spark/da-jian-spark-xue-xi-huan-jing.md)
   * [Druid](da-shu-ju/druid.md)
     * go to fast
   * [Docker](da-shu-ju/docker.md)
