@@ -97,7 +97,7 @@ pip freeze > requirements.txt
 pip install -r requirements.txt
 ```
 
-## virtualenvwrapper
+# virtualenvwrapper
 
 > virtualenvwrapper是virtualenv的扩展管理包，用于更方便管理虚拟环境.
 
