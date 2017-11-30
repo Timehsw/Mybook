@@ -164,5 +164,27 @@ export PIP_RESPECT_VIRTUALENV=true
 
 * 在使用mkvirtualenv命令的时候,-p选项可以指定使用哪一个python环境
 
+3.举例
+
+安装python2.7
+
+```
+mkvirtualenv -p python python2env
+```
+
+安装python3.6
+
+```
+mkvirtualenv -p python3 python3env
+```
+
+查看现在装了几个虚拟环境
+
+```
+hushiwei@hsw  ~  workon
+python2env
+python3env
+```
+
 所有命令都可在后面使用`--help`参数查看具体用法！Enjoy it !
 
