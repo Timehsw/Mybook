@@ -27,7 +27,8 @@
   * [Shell](bian-cheng-yu-yan/shell.md)
     * [grep命令](bian-cheng-yu-yan/shell/grepming-ling.md)
   * [Python](bian-cheng-yu-yan/python.md)
-    * python笔记
+    * [python笔记](bian-cheng-yu-yan/python/pythonbi-ji.md)
+    * [Python虚拟环境](bian-cheng-yu-yan/python/pythonxu-ni-huan-jing.md)
   * [Scala](bian-cheng-yu-yan/scala.md)
     * scala笔记
   * [Java](bian-cheng-yu-yan/java.md)
