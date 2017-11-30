@@ -130,7 +130,6 @@ mkdir $HOME/.local/virtualenvs
 1.2 在~/.bash\_profile中添加行
 
 ```
-
 export VIRTUALENV_USE_DISTRIBUTE=1        #  总是使用 pip/distribute
 export WORKON_HOME=$HOME/.local/virtualenvs       # 所有虚拟环境存储的目录
 if [ -e $HOME/.local/bin/virtualenvwrapper.sh ];then
@@ -157,7 +156,5 @@ export PIP_RESPECT_VIRTUALENV=true
 
 * 列出所有环境：workon 或者 lsvirtualenv -b
 
-
-
-
+所有命令都可在后面使用`--help`参数查看具体用法！Enjoy it !
 
