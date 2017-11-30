@@ -162,5 +162,7 @@ export PIP_RESPECT_VIRTUALENV=true
 
 * 列出所有环境：workon 或者 lsvirtualenv -b
 
+* 在使用mkvirtualenv命令的时候,-p选项可以指定使用哪一个python环境
+
 所有命令都可在后面使用`--help`参数查看具体用法！Enjoy it !
 
