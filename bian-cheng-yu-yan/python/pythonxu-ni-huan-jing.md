@@ -2,7 +2,15 @@
 
 当我用pip安装了virtual后,我如果想要对应版本的python
 
-# virtualenv的参数
+# virtualenv
+
+## 安装
+
+```
+pip install virtualenv
+```
+
+## virtualenv的参数
 
 ```
 hushiwei@hsw  ~/virtual  virtualenv
@@ -43,49 +51,47 @@ Options:
                         Do not download preinstalled packages from PyPI.
   --prompt=PROMPT       Provides an alternative prompt prefix for this
                         environment.
-  --setuptools          DEPRECATED. Retained only for backward compatibility.
-                        This option has no effect.
   --distribute          DEPRECATED. Retained only for backward compatibility.
                         This option has no effect.
 ```
 
 可以看到里面的--python参数可以指定虚拟环境的python版本.并且说明了默认是python3.6
 
-# 创建虚拟环境
+## 创建虚拟环境
 
-## virtual安装Python2.7
+### virtual安装Python2.7
 
 ```
 virtualenv --python=python python2env
 ```
 
-## virtual安装Python3.6环境
+### virtual安装Python3.6环境
 
 ```
 virtualenv --python=python3 python3env
 ```
 
-# 激活进入虚拟环境
+## 激活进入虚拟环境
 
 ```
 source python2env/bin/activate
 source python3env/bin/activate
 ```
 
-# 退出虚拟环境
+## 退出虚拟环境
 
 ```
 deactivate
 ```
 
-# 删除虚拟环境
+## 删除虚拟环境
 
 ```
 # 直接用rm删除目录就是删除虚拟环境了
 rm -rf 虚拟环境的目录名称
 ```
 
-# 激活虚拟环境,将全部依赖写入文件
+## 激活虚拟环境,将全部依赖写入文件
 
 ```
 pip freeze > requirements.txt
