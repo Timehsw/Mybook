@@ -78,6 +78,13 @@ source python3env/bin/activate
 deactivate
 ```
 
+# 删除虚拟环境
+
+```
+# 直接用rm删除目录就是删除虚拟环境了
+rm -rf 虚拟环境的目录名称
+```
+
 # 激活虚拟环境,将全部依赖写入文件
 
 ```
@@ -89,10 +96,6 @@ pip freeze > requirements.txt
 ```
 pip install -r requirements.txt
 ```
-
-
-
-
 
 
 
