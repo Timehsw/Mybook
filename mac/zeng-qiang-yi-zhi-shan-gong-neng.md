@@ -1,10 +1,16 @@
+# 安装brew cask
+
+```
+brew cask
+```
+
 ## 预览markdown
 
 ```
 brew cask install qlmarkdown
 ```
 
-## BetterZipQL 
+## BetterZipQL
 
 BetterZipQL 这款插件可以让用户直接使用 QuickLook 查看 Zip 压缩文件的信息以及文件目录。
 
