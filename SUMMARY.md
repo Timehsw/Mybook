@@ -5,6 +5,7 @@
   * [Mac](mac.md)
     * [Mac开发环境](mac/mackai-fa-huan-jing.md)
     * [GitBook使用说明](mac/gitbookshi-yong-shuo-ming.md)
+    * [增强一指禅功能](mac/zeng-qiang-yi-zhi-shan-gong-neng.md)
   * [Ubuntu](ubuntu.md)
     * [Ubuntu开发环境](ubuntu/ubuntukai-fa-huan-jing.md)
   * [CentOs](centos.md)
