@@ -26,5 +26,13 @@ QLStephen 可预览无拓展名的纯文本文件插件。
 brew cask install QLStephen
 ```
 
+## QuickLookCSV
+
+预览 CSV 文件插件。
+
+```
+brew cask install quicklook-csv
+```
+
 
 
