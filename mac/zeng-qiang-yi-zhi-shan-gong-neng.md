@@ -34,5 +34,11 @@ brew cask install QLStephen
 brew cask install quicklook-csv
 ```
 
+## 一锅粥
+
+```
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package quicklookase qlvideo
+```
+
 
 
