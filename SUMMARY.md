@@ -40,4 +40,6 @@
     * Intellij使用笔记
   * [Git](kai-fa-gong-ju/git.md)
     * git快捷键
+  * [VSCode](kai-fa-gong-ju/vscode.md)
+    * [font](kai-fa-gong-ju/vscode/font.md)
 
