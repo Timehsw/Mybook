@@ -27,17 +27,16 @@ redis stopped
 
 * 启动服务
 
-  # 启动mysql服务
-
-  ~ brew services start mysql  
-    ==&gt; Successfully started `mysql` \(label: homebrew.mxcl.mysql\)
-
-  # 查看服务状态,redis仍然还是停止的
-
-  ~ brew services list  
-    Name  Status  User     Plist  
-    mysql started hushiwei /Users/hushiwei/Library/LaunchAgents/homebrew.mxcl.mysql.plist  
-    redis stopped
+```
+启动mysql服务
+~ brew services start mysql
+  ==> Successfully started mysql (label: homebrew.mxcl.mysql)
+查看服务状态,redis仍然还是停止的
+~ brew services list
+  Name  Status  User     Plist
+  mysql started hushiwei /Users/hushiwei/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+  redis stopped
+```
 
 * 停止服务
 
