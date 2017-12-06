@@ -13,6 +13,13 @@
     * [CentOS开发环境](centos/centoskai-fa-huan-jing.md)
   * [服务器监控](fu-wu-qi-jian-kong.md)
     * [Linux IO实时监控之iostat详解](fu-wu-qi-jian-kong/linux-ioshi-shi-jian-kong-zhi-iostat-xiang-jie.md)
+* [开发工具](kai-fa-gong-ju.md)
+  * [Intelllij](kai-fa-gong-ju/intelllij.md)
+    * Intellij使用笔记
+  * [Git](kai-fa-gong-ju/git.md)
+    * git快捷键
+  * [VSCode](kai-fa-gong-ju/vscode.md)
+    * [font](kai-fa-gong-ju/vscode/font.md)
 * [编程语言](bian-cheng-yu-yan.md)
   * [Shell](bian-cheng-yu-yan/shell.md)
     * [grep命令](bian-cheng-yu-yan/shell/grepming-ling.md)
@@ -24,13 +31,6 @@
     * scala笔记
   * [Java](bian-cheng-yu-yan/java.md)
     * java笔记
-* [开发工具](kai-fa-gong-ju.md)
-  * [Intelllij](kai-fa-gong-ju/intelllij.md)
-    * Intellij使用笔记
-  * [Git](kai-fa-gong-ju/git.md)
-    * git快捷键
-  * [VSCode](kai-fa-gong-ju/vscode.md)
-    * [font](kai-fa-gong-ju/vscode/font.md)
 * [大数据](da-shu-ju.md)
   * [Hadoop](da-shu-ju/hadoop.md)
     * MapReduce
