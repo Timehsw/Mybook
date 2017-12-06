@@ -29,6 +29,7 @@
 * [编程语言](bian-cheng-yu-yan.md)
   * [Shell](bian-cheng-yu-yan/shell.md)
     * [grep命令](bian-cheng-yu-yan/shell/grepming-ling.md)
+    * [查看Linux系统负荷](bian-cheng-yu-yan/shell/cha-kan-linux-xi-tong-fu-he.md)
   * [Python](bian-cheng-yu-yan/python.md)
     * [python笔记](bian-cheng-yu-yan/python/pythonbi-ji.md)
     * [Python虚拟环境](bian-cheng-yu-yan/python/pythonxu-ni-huan-jing.md)
