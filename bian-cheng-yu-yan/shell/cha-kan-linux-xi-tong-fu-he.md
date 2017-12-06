@@ -11,11 +11,9 @@
 * 当CPU完全空闲的时候,平均负荷为0;当CPU工作量饱和的时候,平均负荷为1\(假设只有一个核\)
 * 那么很显然,load average的值越低,比如0.2或者0.3,就说明电脑的工作量越小,系统负荷比较轻
 
-
-
 参考文档
 
-http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
+[http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages](http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages)
 
 总结:
 
@@ -25,7 +23,5 @@ http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages
 
 查看服务器有多少个CPU核心
 
-grep -c 'model name' /proc/cpuinfo
-
-
+_**grep -c 'model name' /proc/cpuinfo**_
 
