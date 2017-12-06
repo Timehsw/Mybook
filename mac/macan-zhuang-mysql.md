@@ -4,8 +4,6 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-
-
 # 安装brewservices
 
 > 安装这个服务后,我们就可以方便的启动停止用brew安装的相关服务了.比如mysql,redis...
@@ -29,13 +27,16 @@ redis stopped
 
 * 启动服务
 
-    # 启动mysql服务
-     ~ brew services start mysql
-    ==> Successfully started `mysql` (label: homebrew.mxcl.mysql)
-    # 查看服务状态,redis仍然还是停止的
-    ~ brew services list
-    Name  Status  User     Plist
-    mysql started hushiwei /Users/hushiwei/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+  # 启动mysql服务
+
+  ~ brew services start mysql  
+    ==&gt; Successfully started `mysql` \(label: homebrew.mxcl.mysql\)
+
+  # 查看服务状态,redis仍然还是停止的
+
+  ~ brew services list  
+    Name  Status  User     Plist  
+    mysql started hushiwei /Users/hushiwei/Library/LaunchAgents/homebrew.mxcl.mysql.plist  
     redis stopped
 
 * 停止服务
@@ -64,6 +65,7 @@ mysql -V
 # 配置mysql的root密码
 mysqladmin -u root password 'yourpassword'
 
+mysql -uroot -p
 ```
 
 
