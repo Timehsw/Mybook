@@ -27,6 +27,7 @@
   * [Python](bian-cheng-yu-yan/python.md)
     * [python笔记](bian-cheng-yu-yan/python/pythonbi-ji.md)
     * [Python虚拟环境](bian-cheng-yu-yan/python/pythonxu-ni-huan-jing.md)
+    * [安装pip](bian-cheng-yu-yan/python/an-zhuang-pip.md)
   * [Scala](bian-cheng-yu-yan/scala.md)
     * scala笔记
   * [Java](bian-cheng-yu-yan/java.md)
