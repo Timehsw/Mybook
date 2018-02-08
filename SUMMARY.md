@@ -7,6 +7,7 @@
     * [GitBook使用说明](mac/gitbookshi-yong-shuo-ming.md)
     * [增强一指禅功能](mac/zeng-qiang-yi-zhi-shan-gong-neng.md)
     * [Mac-Brew安装服务](mac/macan-zhuang-mysql.md)
+    * [修改应用的默认语言](mac/xiu-gai-ying-yong-de-mo-ren-yu-yan.md)
   * [Ubuntu](ubuntu.md)
     * [Ubuntu开发环境](ubuntu/ubuntukai-fa-huan-jing.md)
   * [CentOs](centos.md)
@@ -39,10 +40,10 @@
   * [HBase](da-shu-ju/hbase.md)
     * [Hbase优化](da-shu-ju/hbase/hbaseyou-hua.md)
   * [Spark](da-shu-ju/spark.md)
-    * SparkStreaming
+    * [SparkStreaming](da-shu-ju/spark/sparkstreaming.md)
     * [搭建Spark学习环境](da-shu-ju/spark/da-jian-spark-xue-xi-huan-jing.md)
   * [Druid](da-shu-ju/druid.md)
-    * go to fast
+    * [go to fast](da-shu-ju/druid/go-to-fast.md)
   * [Docker](da-shu-ju/docker.md)
     * [Docker笔记](da-shu-ju/docker/dockerbi-ji.md)
 
