@@ -18,13 +18,24 @@ You can simply set it in the Maps App's Menu at [View]-> [Labels]-> [Always Show
 defaults write com.apple.Maps AppleLanguages '(zh-CN)'
 ```
 
+---
+
+```
+# 英文 -> 简体中文
+defaults write com.google.Chrome AppleLanguages '(zh-CN)'
+
+# 简体中文 -> 英文
+defaults write com.google.Chrome AppleLanguages '(en-US)'
+
+# 英文优先，简体中文第二。反之改一下顺序
+defaults write com.google.Chrome AppleLanguages "(en-US,zh-CN)"
+```
+
 # Calendar
 
 ```
 defaults write com.apple.iCal AppleLanguages '(zh-CN)'
 ```
-
-
 
 那么问题来了,从上面可以知道只要修改每个应用的系统语言即可
 
