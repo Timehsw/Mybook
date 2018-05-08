@@ -10,6 +10,23 @@ sudo apt-get update
 * 2.用第一个这个就可以注册成功
 
 ```
+—– BEGIN LICENSE —–
+eldon
+Single User License
+EA7E-1122628
+C0360740 20724B8A 30420C09 6D7E046F
+3F5D5FBB 17EF95DA 2BA7BB27 CCB14947
+27A316BE 8BCF4BC0 252FB8FF FD97DF71
+B11A1DA9 F7119CA0 31984BB9 7D71700C
+2C728BF8 B952E5F5 B941FF64 6D7979DA
+B8EB32F8 8D415F8E F16FE657 A35381CC
+290E2905 96E81236 63D2B06D E5F01A69
+84174B79 7C467714 641A9013 94CA7162
+
+—— END LICENSE ——
+
+
+
 Ryan Clark
 Single User License
 EA7E-812479
@@ -74,7 +91,7 @@ mysql -u root -p
 # -u 表示选择登陆的用户名， -p 表示登陆的用户密码，上面命令输入之后会提示输入密码，此时输入密码就可以登录到mysql。
 ```
 
-#  安装 python,pip 环境
+# 安装 python,pip 环境
 
 ```
 sudo apt-get install python-pip python-dev
@@ -97,7 +114,7 @@ sudo apt-get install git
 
 git的执行文件在/usr/bin/git
 
-#  安装nodejs及npm
+# 安装nodejs及npm
 
 ```
 sudo add-apt-repository ppa:chris-lea/node.js
@@ -117,8 +134,6 @@ gem -v （检查一下版本）
 sudo apt-get install nodejs （把nodejs也装上）
 sudo gem install jekyll （最后可以安装jekyll了）
 ```
-
-
 
 **注意:**   最后安装jekyll的时候，如果报了缺少什么的错误。根据提示的错误，下载缺少的文件即可。
 
